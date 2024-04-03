@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-	<id type="desktop">voxelpaint.desktop</id>
+<component type="desktop-application">
+	<id>com.voxdsp.VoxelPaint</id>
 	<metadata_license>CC-BY-4.0</metadata_license>
 	<project_license>GPL-2.0-only</project_license>
+	<developer_name>James William Fletcher</developer_name>
+	<launchable type="desktop-id">com.voxdsp.VoxelPaint.desktop</launchable>
 	<name>Voxel Paint</name>
-	<summary>Paint in 3D using voxels!</summary>
+	<summary>Paint in 3D using Voxels</summary>
 	<description>
 		<p>Mouse locks when you click on the game window, press ESCAPE or TAB to unlock the mouse.</p>
 		<ul>
@@ -31,13 +33,20 @@
 		<p>Sensitivity as the 1st command line parameter default is 0.003 `./voxelpaintpro 0.003`.</p>
 	</description>
 	<screenshots>
-		<screenshot><video>https://youtu.be/op3-aAQyGIA</video></screenshot>
-		<screenshot>https://dashboard.snapcraft.io/site_media/appmedia/2023/07/Screenshot_2023-07-29_03-11-25.png</screenshot>
-		<screenshot>https://dashboard.snapcraft.io/site_media/appmedia/2023/07/Screenshot_2023-07-07_01-56-44_oXveCB3.png</screenshot>
+		<screenshot type="default">
+			<image>https://dashboard.snapcraft.io/site_media/appmedia/2023/07/Screenshot_2023-07-29_03-11-25.png</image>
+			<caption>Voxel Paint Screenshot</caption>
+		</screenshot>
+	</screenshots>
+	<screenshots>
+		<screenshot type="default">
+			<image>https://dashboard.snapcraft.io/site_media/appmedia/2023/07/Screenshot_2023-07-07_01-56-44_oXveCB3.png</image>
+			<caption>Voxel Paint Screenshot</caption>
+		</screenshot>
 	</screenshots>
 	<url type="homepage">https://github.com/mrbid/VoxelPaint</url>
 	<releases>
 		<release version="2.3.3" date="2023-10-11" />
 	</releases>
 	<content_rating type="oars-1.0" />
-</application>
+</component>
